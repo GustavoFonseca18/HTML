@@ -1,0 +1,30 @@
+@charset  "UTF-8";
+
+body  {
+
+    font-family: fantasy;
+    font-size: 15px;
+}
+
+h1{
+ 
+color: rgb(255, 0, 98);
+background-color: rgb(152, 152, 206);
+    
+}
+h2{
+     color: rgb(248, 2, 64);
+     background-color: rgba(12, 12, 146, 0.445);
+}
+p{
+    color: rgb(255, 0, 0);
+}
+button{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px ;
+    font-style: oblique;
+    color: rgb(250, 2, 2);
+    
+    
+
+}

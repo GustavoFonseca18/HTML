@@ -1,0 +1,30 @@
+@charset "UTF8";
+
+@import url('https://fonts.googleapis.com/css2?family= Pacifico & display = swap');
+@import url('https://fonts.googleapis.com/css2?family= Caveat: wght @500 & display=swap');
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+
+body{
+    font-family: 'Indie Flower', cursiva;
+    font-size: 13px;
+    
+
+}
+a{
+    color: rgb(17, 0, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+a:visited{
+    color: rgba(0, 0, 0, 0.432);
+}
+a:hover{
+    color: rgb(248, 1, 1);
+    text-decoration: underline; 
+}
+a:active{
+    color: blue;
+}

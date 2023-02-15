@@ -1,0 +1,58 @@
+@charset  "UTF-8";
+
+body  {
+
+    font-family: fantasy;
+    font-size: 15px;
+    color: #4694b2;
+    background-color: #141f27;
+}
+
+h1{
+ 
+color: rgb(255, 4, 4);
+background-color: rgb(152, 152, 206);
+ text-decoration: underline;
+ text-align: center;
+    
+}
+h2{
+     color: rgb(255, 0, 0);
+     background-color: rgba(12, 12, 146, 0.445);
+     text-align: center;
+}
+p{
+    color: #4134da;
+   font-size:  16px;
+   font-style: oblique;
+   background-color: #141f27;
+   text-shadow: #34b3da 0.1em 0.1em 0.15em rgb(0, 172, 238);
+}
+button{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px ;
+    font-style: oblique;
+    color: #00f5fd;  
+    background-color: #141f27;
+    text-shadow: #34b3da 0.1em 0.1em 0.15em rgb(0, 172, 238);
+    
+
+}
+ul{
+    font-size: 15px;
+    font-style: oblique;
+    color: rgb(2, 2, 250);
+   
+}
+h3{
+    color: rgb(245, 111, 1);
+     background-color: #4134da;
+     text-align: center;
+     
+}
+div{
+    text-align: center;
+    color: brown;
+}
+
+  

@@ -1,0 +1,235 @@
+@charset "UTF8";
+@import url('https://fonts.googleapis.com/css2?family= Eczar & display = swap');
+
+@import url('https://fonts.googleapis.com/css2? family= Eczar & family= Kanit:wght@100 & display=swap');
+@import url('https://fonts.googleapis.com/css2? família = Anton &family= Eczar & family= Kanit:wght@100 & display=swap');
+@import url('https://fonts.googleapis.com/css2?family= Satisfy & display = swap');
+
+
+body{
+    font-family: 'Satisfy', cursive;
+    text-align: justify;
+    border-radius: 55px;
+    margin-bottom: 1px;
+    background-image: linear-gradient(45deg, #013838,#380101d2,rgb(22, 2, 95));
+
+   
+    
+    
+
+}
+.container{
+    background-color: #055861;
+    border-radius: 10px;
+    border:#7a090963;
+    border-style: solid;
+    border-width: 6px;
+    margin-bottom: 84px;
+    margin-top: 36px;
+    margin-left: 54px;
+    margin-right: 54px;
+    padding: 10px;
+    padding-bottom: 1px;
+    
+    
+    
+    
+
+
+
+}
+#img1{
+  margin-left: 60px;
+  display: inline;
+  
+}
+#img2{
+    margin-left:60px;
+    display: inline;
+
+}
+#img3{
+    margin-left:60px;
+    display: inline;
+
+}
+#img4{
+    margin-left:60px;
+    display: inline;
+    
+}
+#img5{
+    margin-left:60px;
+    display: inline;
+    
+}
+#img6{
+    margin-left:60px;
+    display: inline;
+
+
+
+
+
+
+}
+header > h1{
+    text-align: center;
+    background-color: #cf682d; 
+    border-radius: 20px;
+    box-shadow: 4px 4px 5px rgba(61, 61, 40, 0.815);
+    text-shadow: 2px 3px 5px #000000;
+     
+    
+}
+header{
+    border-radius: 10px;
+    border:#7a090963;
+    border-style: solid;
+    border-width: 6px;
+}
+.yt{
+    text-align: center;
+    
+    
+}
+header{
+    background-color: #F28963;
+    padding: 05px;
+    margin-top:-5px ;
+    margin-left: 100px;
+    margin-bottom: 3px;
+    margin-right:100px ;
+}
+#noticias{
+    background-color:#054461 ;
+    border-radius: 10px;
+    border: #311302;
+    border-style: solid;
+    border-width: 4px;
+    box-shadow: 3px -2px 20px 0px #2c0202;
+   margin-top:  48px;
+   margin-bottom: 68px;
+   margin-left: 31px;
+   margin-right: 31px;
+    
+}
+#sumario{
+    background-color:#e0a087 ;
+    border-radius: 10px;
+    border:#7a090963;
+    border-width: 10px;
+
+}
+
+section > h3{
+    background-color: #111;
+    color: aliceblue;
+    border-radius: 4px;
+    box-shadow: 5px 6px 9px rgba(0, 0, 0, 0.397);
+    
+    
+   
+}
+section h2{
+    background-color: #111;
+    color: aliceblue;
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.596);
+    border-radius: 5px;
+}
+section h4{
+    background-color: #cf682d;
+    color: #013838;
+    font-weight: bold;
+    font-family: 'Satisfy', cursive;
+    text-align: auto;
+    border-radius: 10px; 
+    text-align: center;
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.548);
+    margin-right: 363px;
+    margin-left: 363px;
+    padding: 3px;
+    
+    
+    
+    
+}
+section > ol{
+    background-color: #596969;
+    font-family: 'Satisfy', cursive;
+    margin-right: 1300px;
+    border-radius: 5px;
+    border:#7a090963;
+    border-width: 10px;
+    font-weight: bolder;
+    font-size: 15px;
+    display: inline-block;
+    color:#000000;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.514);
+    text-shadow: 1px 01px 1px rgba(0, 0, 0, 0.479);;
+    
+  
+
+}
+footer{
+    background-color: #111;
+    color:whitesmoke ;
+    text-align: center;
+    padding: 4px;
+    
+   
+
+}
+nav{
+    background-color: #111;
+    padding: 3px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 7px rgba(109, 81, 3, 0.616);
+   
+
+    
+    
+    
+}
+nav > a{
+
+    color: aliceblue;
+    text-decoration: none;
+    margin: 60px;
+   
+}
+
+nav > a:hover{
+    text-decoration: underline;
+    color: rgb(2, 210, 247);
+    font-weight: bold;
+    
+    
+
+}
+main{
+    background-color: #0A3A40;
+    padding: 05px;
+    margin: 05px;
+    border:#7a090963;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 6px;
+
+}
+article > aside{ 
+    background-color: rgb(155, 154, 154);
+    font-family:  'Anton', sans-serif;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: justify;
+    font-family: 'Satisfy', cursive;
+    border-radius: 10px;
+    margin-bottom: -13px;
+    box-shadow: 7px -2px 20px 1px #642d2dbf;
+
+}
+#imagem7{
+    margin-left:60px;
+    display: inline;
+}

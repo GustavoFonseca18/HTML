@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2? family= Creepster & family= Passion+One:wght@900 & display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family= Permanent+Marker & display = swap');
+
+@import url('https://fonts.googleapis.com/css2?family= Permanent+Marker & display = swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+body{
+    background-image: linear-gradient(90deg, #252525,#014231);
+    
+}
+h1{
+
+    background-color: #3d06a369;
+    background-image: linear-gradient( #00f3b6);
+    color: #e90202;
+    box-shadow: 2px 3px 10px#8102e9;
+    border-radius: 10px;
+    text-shadow: #6a0492;
+    text-align: center;
+    font-family: 'Creepster', cursiva;
+    font-family: 'Passion One', cursiva;
+    
+    font-size: 2em;
+}
+p{
+    text-indent: 20px;
+    text-align: justify;
+    font-family: 'Fredoka um', cursive;
+    text-shadow: #e90202;
+    border-radius: 10px;
+    box-shadow: #24045f;
+    color: #03ffab;
+    background-color: #00000025;
+    font-size: larger
+}
+h2{
+
+    font-family: 'Justo', cursive,Arial,sans-serif;
+    font-size: 2em;
+    text-shadow: #6a0492;
+    background-color: #3d06a3;
+    background-image: linear-gradient( #00f3b6);
+    text-align: center;
+    border-radius: 10px;
+}
+h3{
+    font-family: 'Permanent Marker', cursive ,Arial,sans-serif;
+    font-size: 2em;
+    text-shadow: #6a0492;
+    background-color: #3d06a3;
+    background-image: linear-gradient( #00f3b6);
+    text-align: center;
+    border-radius: 10px;
+}

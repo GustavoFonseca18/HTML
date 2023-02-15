@@ -1,0 +1,18 @@
+
+*{
+    height: 100%;
+    
+
+}
+ body{
+   background-image: linear-gradient(45deg,#00010D, #2360da,#063d85,#0476D9,#0487D9) ;
+   background-image: radial-gradient();
+   
+
+
+}
+h1{
+    background-image: linear-gradient(to left,#107361#1D7373#0F5959#0A3A40#042326);
+    text-align: center;
+    background-color: #042326#0F5959;
+}
