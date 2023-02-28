@@ -1,17 +1,12 @@
-@charset "utf8" ;
+@charset "utf8";
 
 
 
-
-
-
-
-body{
-    background-image: url(imagens/one\ piece.jpg);
-    background-repeat: no-repeat;
-    
-    
-    
+.bloco{
+    background-image: url(imagens/wallpaper002.jpg);
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 10px;
     
 }
-
