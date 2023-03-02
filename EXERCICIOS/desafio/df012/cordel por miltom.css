@@ -5,38 +5,92 @@
 @import url('https://fonts.googleapis.com/css2?family= Passion +One & display=swap');
 
 
+:root{
+    --font1: verdana, Geneva, sans-serif;
+    --font2: 'Sriracha', cursive;
+    --font3: 'Passion One', cursive;
+}
 
-
-
-body{
+*{
+    margin:0px;
+    padding: 0px;
+}
+html, body{
+    min-height: 100vh;
+    font-family: Sriracha;
+   
 
 
 }
 header{
-    position: relative;
-    font-size: 60px;
+    
     text-align: center;
-    font-family:'Passion One';
+    font-family:'Sriracha';
     background-color: black;
     color: aliceblue;
-    padding: 79px;
-    margin: -9px;
-    padding-left: 37px;
+    text-transform: uppercase;
    
     
     
 
 }
-nav{
-    position: absolute;
-    font-size: 20px;
-    font-family: Verdana;
-    color: aliceblue;
-    transform: translate(425%,-175%);
- 
+header > h1{
+    font-family: 'Passion One';
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-size: 5vw;
 }
-p{
+
+header >  p{
+    padding-bottom: 50px;
+    color: azure;
     font-family: 'Sriracha';
-    font-size: 30px;
-    color: black;
+    font-size: 1em;
+
+}
+
+
+
+
+
+
+header a, footer a {
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bolder;
+}
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 2em;
+    font-size: 3.5vw;
+
+    
+    
+
+}
+
+footer{
+    background-color: #000000;
+    text-align: center;
+    color: azure;
+    padding: 10px;
+
+}
+.normal{
+    background-color: #ffffff;
+    color: #000000;
+}
+.imagem {
+    background-color: #2d470294;
+    color: #ffffff;
+}
+.imagem > p {
+    background-color: #00000056;
+    display: inline-block;
+    padding: 5px;
 }
