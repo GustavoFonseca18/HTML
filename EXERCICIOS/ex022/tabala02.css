@@ -14,16 +14,19 @@ body{
 }
 
 h1{
+    font-family: 'Sriracha', cursive;
     width: 600px;
     margin: auto;
+    text-shadow: 3px -1px 5px #4c849e;
     text-align: center;
     border-radius: 10px ;
     border: 2px solid black;
-    background-image: url(imagens/brasil.jpg);
-    background-position: center center;
-    color: #66ff00;
+    background-image: url(imagens/wallpaper004.jpg);
+    background-position: left ;
+    color: #000000;
     font-style: italic;
     font-variant: small-caps;
+    margin-bottom: 10px;
     
    
 }
@@ -39,16 +42,31 @@ table {
     font-size: medium;
    font-weight: bolder;
    color: rgb(0, 0, 0);
+   position: relative;
+   
 
 }
+tbody > tr:nth-child(3n){
+    background-color:#d3d3d36b;
+    
 
+}
 td, th {
-    border: 2px solid black;
+    border: 2px solid rgb(0, 0, 0);
     padding: 10px;
+    text-shadow: 3px -1px 6px #000000;
+    color: white;
 }
-thead, tfoot { background-color: #2e2e2e;
-    color: #ffffff;
+thead > tr > th {
 
+    position: sticky;
+    top: -1px;
+    background-color: #3f3f3f;
+}
+thead, tfoot { 
+    background-color: #3f3f3f;
+    color: #ffffff;
+    font-family: 'Martian Mono';
 
 }
 td.num{
@@ -56,7 +74,7 @@ td.num{
 }
 td.porcentagem {
     color: #17db05;
-    background-color: rgba(50, 53, 51, 0.692);
+    background-color: rgba(50, 53, 51, 0.932);
     font-weight: lighter;
     text-align: center;
     
@@ -70,6 +88,14 @@ caption{
     background-color: #2e2e2e;
     border-radius: 3px;
     padding: 10px;
-    box-shadow: -7px -3px 20px 2px #0505708c;
+    text-shadow: 3px 2px 6px #00ff37a1;
     
+}
+p{
+    color: #fdfdfd;
+    text-shadow:3px -1px 6px #000000;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    text-align: justify;
 }
