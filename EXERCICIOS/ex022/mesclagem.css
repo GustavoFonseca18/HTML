@@ -1,0 +1,94 @@
+@charset "utf8" ;
+
+@import url('https://fonts.googleapis.com/css2?family= Climate +Crisis & display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family= Caveat :wght@600 & display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family= Mynerve & display=swap');
+        
+body{
+    font-family: sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: linear-gradient(45deg ,#9202f1, #3b4bf3 ,#06daff);
+    font-size: large;
+   
+    
+    
+
+    
+    
+}
+h1, h2{
+    background-image: url(imagens/brasil.jpg);
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: 'Climate Crisis', cursive;
+    color:#40ff06;
+    border-collapse: collapse;
+   font-weight: lighter;
+   letter-spacing:5px;
+   
+
+}
+
+table{
+    margin: auto;
+    
+    border-collapse:collapse ;
+    width: 700px;
+    
+    
+    
+}
+
+caption{
+    background-image: url(imagens/wallpaper004.jpg);
+    background-position: left top ;
+    background-size:cover;
+    border:2px solid black;
+    border-radius:10px 10px 0px 0px ;
+    font-size: 1.3em;
+    padding: 10px;
+   
+    font-family: 'Caveat', cursive;
+    color: #ff6600;
+
+
+}
+th, td { 
+    font-family: 'Mynerve', cursive;
+    border: 1px solid black;
+    border-collapse: collapse ;
+    padding: 10px;
+    background-color: #5902faa9;
+    font-weight: bolder;
+    color: white;
+}
+.homens{
+    background-color: rgba(17, 0, 255, 0.795);
+    font-weight:bold;
+    text-shadow: 2px 2px 3px rgba(12, 11, 11, 0.781);
+    color: rgb(255, 255, 255);
+    font-family: 'Mynerve', cursive;
+}
+.infantil{
+
+    background-color: #0e89c2;
+}
+#names{
+    color: black;
+    background-color: #ff6600;
+}
+
+
+
+#cbç{
+    color: rgb(0, 0, 0);
+    background-color: #ee57e1;
+
+}
+
