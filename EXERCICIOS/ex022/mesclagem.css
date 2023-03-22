@@ -19,12 +19,14 @@ body{
     
     
 }
-h1, h2{
-    background:linear-gradient(189deg,#f102e5, #0f0f0fab ,#06b0ff);
+h1, h2{ 
+    margin-left: 500px;
+    margin-right: 500px;
+
     background-position: center center;
     background-size: cover;
     text-align: center;
-    border: 2px solid black;
+    border: 2px solid rgb(6, 153, 211);
     border-radius: 10px;
     font-family: 'Climate Crisis', cursive;
     color:#000000;
@@ -97,11 +99,162 @@ th, td {
 }
 
 #repetidos{
-    color: #e00000;
+    color: #faf6f6;
     text-indent: 2px;
     font-weight: lighter;
      
 }
+
+ 
+ td:hover {
+    text-decoration: underline;
+    color: #fcfbfb;
+    background-image: linear-gradient( 45deg,#00f0a069,#1100ff3d, rgb(207, 27, 87));
+    background-color: #00000056;
+    transition-duration: 1s;
+    cursor: pointer;
+
+
+}
+#repetidos:hover {
+    color:#080808;
+
+
+}
+#names:hover {
+    color: #f7f9fa;
+    background: linear-gradient(45deg, #02bbe9,#2e0799 ,#0942df);
+    transition-duration: 2s;
+    cursor: pointer;
+
+
+}
+#pop:hover{
+    background-image: url(imagens\ filmes\ back/mulhercompipoca.jpg);
+    background-position:  center;
+    background-size: cover;
+    transition-duration: 2s;
+    cursor: pointer;
+
+
+}
+#kid:hover{
+    background-image: url(imagens\ filmes\ back/criançaa.jpg);
+    background-position: center ;
+    background-size: cover;
+    transition-duration: 2s;
+    cursor: pointer;
+}
+#adolecent:hover{
+    background-image: url(imagens\ filmes\ back/dolecente.jpg);
+    background-position: center ;
+    background-size: co;
+    transition-duration: 2s;
+    cursor: pointer;
+
+}
+
+th:hover{
+    color: #9dff00;
+    transition-duration: .7s;
+    cursor: pointer;
+    background-image: url(imagens/filmes-series-informatica.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#ramb:hover{
+    background-image: url(imagens\ filmes\ back/p_791591700155.jpg);
+    background-position:  center;
+    background-size: cover;
+    transition-duration: 2s;
+    cursor: pointer;
+}
+
+#ali:hover{
+    background-image: url(imagens\ filmes\ back/fff.jpg);
+    background-position:  center;
+    background-size: cover;
+    transition-duration: 2s;
+    cursor: pointer;
+}
+.incept:hover {
+    background-image: url(imagens\ filmes\ back/inception.jpeg);
+    background-position:  center;
+    background-size: cover;
+    transition-duration: 2s;
+    cursor: pointer;
+
+}
+#avengers:hover{
+    background-image: url(imagens\ filmes\ back/vingadores.jpg);
+    background-position:  center;
+    background-size: cover;
+    transition-duration: 2s;
+    cursor: pointer;
+
+
+
+}
+#hulquee:hover{
+    background-image: url(imagens\ filmes\ back/hulk.jpg);
+
+    background-position:  center;
+    background-size: cover;
+    transition-duration: 2s;
+    cursor: pointer;
+
+
+}
+.ali:hover{
+    background-image: url(imagens\ filmes\ back/fff.jpg);
+    background-position:  center;
+    background-size: cover;
+    transition-duration: 2s;
+    cursor: pointer;
+}
+#morcego:hover{
+    background-image: url(imagens\ filmes\ back/batman.jpg);
+    background-position:  center;
+    background-size: cover;
+    transition-duration: 2s;
+    cursor: pointer;
+}
+#obli:hover{
+    background-image: url(imagens\ filmes\ back/oblivion.jpg);
+    background-position:  center;
+    background-size: cover;
+    transition-duration: 2s;
+    cursor: pointer;
+}
+.old:hover{
+    background-image: url(imagens\ filmes\ back/oldboy.jpg);
+    background-position:  center;
+    background-size: cover;
+    transition-duration: 2s;
+    cursor: pointer;
+
+}
+#matri:hover{
+    background-image: url(imagens\ filmes\ back/matrix.jpg);
+    background-position:  center;
+    background-size: cover;
+    transition-duration: 2s;
+    cursor: pointer;
+}
+#big:hover{
+    background-image: url(imagens\ filmes\ back/bighero.jpg);
+    background-position:  center;
+    background-size: cover;
+    transition-duration: 2s;
+    cursor: pointer;
+}
+
+
+
+
 
 
 
