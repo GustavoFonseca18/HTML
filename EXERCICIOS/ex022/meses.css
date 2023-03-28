@@ -1,0 +1,19 @@
+@charset "utf8";
+
+table{
+
+   border-collapse: collapse;
+   
+}
+th,td{
+    border: 1px solid;
+    padding: 10px;
+}
+
+col{
+    background-color: darkcyan;
+}
+#container{
+    overflow: auto;
+}
+
