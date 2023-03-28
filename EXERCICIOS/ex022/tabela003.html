@@ -25,16 +25,16 @@
     <table>
         <caption>Filmes mais assistidos</caption>
         <thead>
-            <th id="cbç">Grupos</th>
-            <th id="cbç">Nomes</th>
-            <th colspan="4" id="cbç">Filmes</th>
+            <th scope="col" id="cbç">Grupos</th>
+            <th scope="col" id="cbç">Nomes</th>
+            <th scope="colgroup" colspan="4" id="cbç">Filmes</th>
 
         </thead>
 
 
         <tbody>
             <tr>
-                <th rowspan="3" id="pop">mulheres</th>
+                <th scope="rowgroup" rowspan="3" id="pop">mulheres</th>
                 <td id="names">ana maria santos</td>
                 <td id="ramb">rambo</td>
                 <td id="ali">alien</td>
@@ -57,31 +57,33 @@
                 <td id="big">big hero</td>
 
             </tr>
-            <tr>
-                <th rowspan="3" class=" homens">homens</th>
-                <td id="names">bruno mendonça</td>
-                <td class=" homens" id="repetidos">oldboy</td>
-                <td class=" homens">intocveis</td>
-                <td class=" homens" id="repetidos">amnesia</td>
-                <td class=" homens">gladiador</td>
-            </tr>
-            <tr>
-                <td id="names">daniel lourenço</td>
-                <td class=" homens">wall-e</td>
-                <td class=" homens" id="repetidos">star wars 5</td>
-                <td class=" homens" id="repetidos">oldboy</td>
-                <td class=" homens" id="repetidos">dangal</td>
-            </tr>
-            <tr>
-                <td id="names">fabiano mota</td>
-                <td class=" homens" id="repetidos">star wars 5</td>
-                <td class=" homens">taxi driver</td>
-                <td class=" homens">toy story</td>
-                <td class=" homens" id="repetidos">dangal</td>
-            </tr>
+            
+                        <tr>
+                            <th scope="rowgroup" rowspan="3" class=" homens">homens</th>
+                            <td id="names">bruno mendonça</td>
+                            <td  class=" homens" id="repetidos" >oldboy</td>
+                            <td class=" homens">intocveis</td>
+                            <td class=" homens" id="repetidos">amnesia</td>
+                            <td class=" homens">gladiador</td>
+                        </tr>
+                        <tr>
+                            <td id="names">daniel lourenço</td>
+                            <td class=" homens">wall-e</td>
+                            <td class=" homens" id="repetidos">star wars 5</td>
+                            <td class=" homens" id="repetidos">oldboy</td>
+                            <td class=" homens" id="repetidos">dangal</td>
+                        </tr>
+                        <tr>
+                            <td id="names">fabiano mota</td>
+                            <td class=" homens" id="repetidos">star wars 5</td>
+                            <td class=" homens">taxi driver</td>
+                            <td class=" homens">toy story</td>
+                            <td class=" homens" id="repetidos">dangal</td>
+                        </tr>
+                  
             
                 <tr>
-                    <th rowspan=" 5" class="infantil" id="kid">Crianças</th>
+                    <th scope="rowgroup" rowspan=" 5" class="infantil" id="kid">Crianças</th>
                     <td id="names">emanoel</td>
                     <td class="infantil"> Nausicaä do Vale do Vento</td>
                     <td class="infantil" id="repetidos">Minúsculos [Minuscule – La vallée des fourmis perdues]</td>
@@ -118,7 +120,7 @@
             
             </tr>
             <tr>
-                <th  rowspan=" 5" id="adolecent"> adolecentes</th>
+                <th scope="rowgroup" rowspan=" 5" id="adolecent"> adolecentes</th>
                 <td id="names">bianca</td>
                 <td>Ainda Estou Aqui</td>
                 <td>Panico 5</td>
@@ -129,21 +131,21 @@
 
             </tr>
             <tr>
-                <th id="names">jefferson</th>
+                <td id="names" >jefferson</td>
                 <td>Homen-Aranha: sem Volta Pra Casa</td>
                 <td>Kick-Ass 2</td>
                 <td>Poder Sem Limites</td>
                 <td>Power Rangers</td>
             </tr>
             <tr>
-                <th id="names">Ana</th>
+                <td id="names" >Ana</td>
                 <td>Barraca Do Beijo</td>
                 <td>Atraves Da Minha Janela</td>
                 <td>A Cinco Passos De Voce</td>
                 <td>Mundo Estranho</td>
             </tr>
             <tr>
-                <th id="names">Cleiton</th>
+                <td id="names" > Cleiton</td>
                 <td>American Pie: A Primeira Vez É Inesquecível</td>
                 <td>American Pie: A Segunda Vez é Ainda Melhor </td>
                 <td>American Pie: Caindo em Tentação</td>
@@ -152,7 +154,7 @@
 
             </tr>
             <tr>
-                <th id="names">Katarina</th>
+                <td id="names" > >Katarina</td>
                 <td>American Pie Presents: Girls Rules</td>
                 <td>A Hora Do Pesadelo</td>
                 <td> Panico Na Escola</td>

@@ -41,6 +41,7 @@ h1, h2{
 table{
     margin: auto;
     
+    
     border-collapse:collapse ;
     width: 700px;
     
@@ -61,8 +62,15 @@ caption{
     font-family: 'Climate Crisis', cursive;
     color: #000000;
     letter-spacing:2px;
+    background-color: #000000;
+    
+    position: sticky;
+    top: -1px;
+    
 
 
+
+   
 }
 th, td { 
     font-family: 'Mynerve', cursive;
@@ -71,9 +79,14 @@ th, td {
     padding: 10px;
     background-color: #5902faa9;
     font-weight: bolder;
-    color: rgb(0, 0, 0);
+    color: #000000;
+    position: sticky;
+    top: -1px;
+    position: relative;
+    
 }
-.homens{
+    
+ .homens {
     background-color: rgba(17, 0, 255, 0.795);
     font-weight:bold;
     text-shadow: 2px 2px 3px #0c0b0bc7;
@@ -229,6 +242,7 @@ th:hover{
     transition-duration: 2s;
     cursor: pointer;
 }
+
 .old:hover{
     background-image: url(imagens\ filmes\ back/oldboy.jpg);
     background-position:  center;
