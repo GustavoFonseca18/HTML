@@ -3,6 +3,8 @@
 
 
 iframe{
-    width: 350px;
-    height: 400px;
+    width: 800px;
+    height: 1000px;
+    display: block;
+    margin: auto;
 }

@@ -1,0 +1,267 @@
+@charset "utf8" ;
+
+@import url('https://fonts.googleapis.com/css2?family= Climate +Crisis & display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family= Caveat :wght@600 & display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family= Mynerve & display=swap');
+        
+body{
+    font-family: sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: linear-gradient(45deg ,#9202f1, #3b4bf3 ,#06daff);
+    font-size: large;
+   
+    
+    
+
+    
+    
+}
+h1, h2{ 
+    margin-left: 500px;
+    margin-right: 500px;
+
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+    border: 2px solid rgb(6, 153, 211);
+    border-radius: 10px;
+    font-family: 'Climate Crisis', cursive;
+    color:#000000;
+    text-shadow: 7px 2px 11px #e6819fc7;
+    border-collapse: collapse;
+   font-weight: lighter;
+   letter-spacing:5px;
+   
+
+}
+
+table{
+    margin: auto;
+    
+    
+    border-collapse:collapse ;
+    width: 700px;
+    
+    
+    
+}
+
+caption{
+    background-image: url(imagens/fumaca-branca-em-fundo-preto_9083-8466.avif);
+    background-position: bottom left;
+    background-size:cover;
+    border:2px solid black;
+    border-radius:10px 10px 0px 0px ;
+    font-size: 1.3em;
+    padding: 10px;
+    text-shadow: 2px 3px 4px  #ffffff;
+    font-weight: lighter;
+    font-family: 'Climate Crisis', cursive;
+    color: #000000;
+    letter-spacing:2px;
+    background-color: #000000;
+    
+    position: sticky;
+    top: -1px;
+    
+
+
+
+   
+}
+th, td { 
+    font-family: 'Mynerve', cursive;
+    border: 1px solid black;
+    border-collapse: collapse ;
+    padding: 10px;
+    background-color: #5902faa9;
+    font-weight: bolder;
+    color: #000000;
+    position: sticky;
+    top: -1px;
+    position: relative;
+    
+}
+    
+ .homens {
+    background-color: rgba(17, 0, 255, 0.795);
+    font-weight:bold;
+    text-shadow: 2px 2px 3px #0c0b0bc7;
+    color: #ffffff;
+    font-family: 'Mynerve', cursive;
+}
+.infantil{
+
+    background-color: #0e89c2;
+}
+#names{
+    color: black;
+    background-color: #ff6600;
+}
+
+
+
+#cbç{
+    color: #fcfbfb;
+    background-color: #000000;
+    
+
+}
+
+#repetidos{
+    color: #faf6f6;
+    text-indent: 2px;
+    font-weight: lighter;
+     
+}
+
+ 
+ td:hover {
+    text-decoration: underline;
+    color: #fcfbfb;
+    background-image: linear-gradient( 45deg,#00f0a069,#1100ff3d, rgb(207, 27, 87));
+    background-color: #00000056;
+    transition-duration: 1s;
+    cursor: pointer;
+
+
+}
+#repetidos:hover {
+    color:#080808;
+
+
+}
+#names:hover {
+    color: #f7f9fa;
+    background: linear-gradient(45deg, #02bbe9,#2e0799 ,#0942df);
+    transition-duration: 2s;
+    cursor: pointer;
+
+
+}
+#pop:hover{
+    background-image: url(imagens\ filmes\ back/mulhercompipoca.jpg);
+    background-position:  center;
+    background-size: cover;
+    transition-duration: 2s;
+    cursor: pointer;
+
+
+}
+#kid:hover{
+    background-image: url(imagens\ filmes\ back/criançaa.jpg);
+    background-position: center ;
+    background-size: cover;
+    transition-duration: 2s;
+    cursor: pointer;
+}
+#adolecent:hover{
+    background-image: url(imagens\ filmes\ back/dolecente.jpg);
+    background-position: center ;
+    background-size: co;
+    transition-duration: 2s;
+    cursor: pointer;
+
+}
+
+th:hover{
+    color: #9dff00;
+    transition-duration: .7s;
+    cursor: pointer;
+    background-image: url(imagens/filmes-series-informatica.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#ramb:hover{
+    background-image: url(imagens\ filmes\ back/p_791591700155.jpg);
+    background-position:  center;
+    background-size: cover;
+    transition-duration: 2s;
+    cursor: pointer;
+}
+
+#ali:hover{
+    background-image: url(imagens\ filmes\ back/fff.jpg);
+    background-position:  center;
+    background-size: cover;
+    transition-duration: 2s;
+    cursor: pointer;
+}
+.incept:hover {
+    background-image: url(imagens\ filmes\ back/inception.jpeg);
+    background-position:  center;
+    background-size: cover;
+    transition-duration: 2s;
+    cursor: pointer;
+
+}
+#avengers:hover{
+    background-image: url(imagens\ filmes\ back/vingadores.jpg);
+    background-position:  center;
+    background-size: cover;
+    transition-duration: 2s;
+    cursor: pointer;
+
+
+
+}
+#hulquee:hover{
+    background-image: url(imagens\ filmes\ back/hulk.jpg);
+
+    background-position:  center;
+    background-size: cover;
+    transition-duration: 2s;
+    cursor: pointer;
+
+
+}
+.ali:hover{
+    background-image: url(imagens\ filmes\ back/fff.jpg);
+    background-position:  center;
+    background-size: cover;
+    transition-duration: 2s;
+    cursor: pointer;
+}
+#morcego:hover{
+    background-image: url(imagens\ filmes\ back/batman.jpg);
+    background-position:  center;
+    background-size: cover;
+    transition-duration: 2s;
+    cursor: pointer;
+}
+#obli:hover{
+    background-image: url(imagens\ filmes\ back/oblivion.jpg);
+    background-position:  center;
+    background-size: cover;
+    transition-duration: 2s;
+    cursor: pointer;
+}
+
+.old:hover{
+    background-image: url(imagens\ filmes\ back/oldboy.jpg);
+    background-position:  center;
+    background-size: cover;
+    transition-duration: 2s;
+    cursor: pointer;
+
+}
+#matri:hover{
+    background-image: url(imagens\ filmes\ back/matrix.jpg);
+    background-position:  center;
+    background-size: cover;
+    transition-duration: 2s;
+    cursor: pointer;
+}
+#big:hover{
+    background-image: url(imagens\ filmes\ back/bighero.jpg);
+    background-position:  center;
+    background-size: cover;
+    transition-duration: 2s;
+    cursor: pointer;
+}
